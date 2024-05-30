@@ -9,7 +9,7 @@ mqttBroker = "broker.hivemq.com"
 relay = ["r1", "r2", "r3", "r4"]
 
 # Initialize MQTT client
-client = mqtt.Client("Temperature_Inside")
+client = mqtt.Client("Temperature")
 client.connect(mqttBroker)
 
 # URL for the image capture
